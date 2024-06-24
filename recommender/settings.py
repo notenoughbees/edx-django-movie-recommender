@@ -127,7 +127,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 
-CSRF_TRUSTED_ORIGINS = ['https://daniellehann-8000.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai/','https://*.127.0.0.1']
-CORS_ALLOWED_ORIGINS = [
-    'https://daniellehann-8000.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai',
-]
+ALLOWED_HOSTS = ['daniellehann-8000.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai', 'localhost', '127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['https://daniellehann-8000.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai']
