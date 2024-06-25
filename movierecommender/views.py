@@ -32,7 +32,7 @@ def generate_movies_context():
             watched = False
         ).filter(
             recommended = True
-        ).order_by('-vote-count')[:30]
+        ).order_by('-vote_count')[:30]
     context['movie_list'] = movies
     return context
 
